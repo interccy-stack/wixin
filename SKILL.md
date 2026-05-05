@@ -22,7 +22,7 @@ metadata:
 ## 如何使用
 直接调用脚本：
 ```bash
-C:\Users\lenovo\.copaw\venv\Scripts\python.exe skills\voice-document-maker\scripts\make_video.py --text "这里是朗读内容" --bg_prompt "背景描述" --output "output.mp4"
+C:\Users\lenovo\.copaw\venv\Scripts\python.exe skills\voice-document-maker\make_video.py --text "这里是朗读内容" --bg_prompt "背景描述" --output "output.mp4"
 ```
 
 ## 示例
@@ -33,7 +33,7 @@ python scripts/make_video.py --text "天行健，君子以自强不息。" --bg_
 
 ### 制作科技风有声视频
 ```bash
-python scripts/make_video.py --text "AI 技术正在改变世界。" --bg_prompt "Futuristic technology background, blue neon, cyberpunk" --output "tech.mp4"
+python /make_video.py --text "AI 技术正在改变世界。" --bg_prompt "Futuristic technology background, blue neon, cyberpunk" --output "tech.mp4"
 ```
 
 ## 交付物
